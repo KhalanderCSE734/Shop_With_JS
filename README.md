@@ -1,2 +1,2 @@
-# Shop_With_JS
-Online E-Commerce Using LocalStorage
+# Complete Your World Of JAVASCRIPT
+Learn How CRUD Works With LocalStorage Which Persists Products Even After a long
