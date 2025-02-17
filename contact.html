@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/styleMedia.css">
+  <link rel="stylesheet" href="/styleCart.css">
+  <link rel="stylesheet" href="/styleCartMedia.css">
+  <link rel="stylesheet" href="/styleContact.css">
+  <link rel="shortcut icon" type="x-icon" href="fav-icon.png">
+</head>
+<body>
+    
+
+    <header>
+
+        <div class="sign-in-info">
+          <p class="shipping">
+            Free shipping, 30-day return or refund guarantee.
+          </p>
+          <div class="sign">
+            <div class="sign-in">
+              <a href="#">Sign In</a>
+            </div>
+            <div class="sign-up">
+              <a href="#">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        
+        <div id="showPro">
+          <span>Laptop</span> Has been Removed From the Cart 
+        </div>
+
+        <nav style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+        <div class="logo">
+          <img src="public/logo.png" alt="show-mart" onclick="window.location.href='/index.html';">
+        </div>
+        <div class="nav-options">
+          <i class="fa-solid fa-bars"></i> 
+          
+          <ul>
+             <i class="fa-solid fa-xmark"></i>
+            <li><a href="/index.html"> Home</a> </li>
+            <li><a href="/about.html"> About</a> </li>
+            <li><a href="/products.html"> Products</a> </li>
+            <li><a href=""> Contact</a> </li>
+            <a href="/Cart.html" class="cart" style="padding:5px;">
+                <li class="cart"> <i class="fa-solid fa-cart-shopping"></i> <span id="counter">0</span> </li>
+            </a>
+          </ul>
+        
+        </div>
+        </nav>
+        
+        
+        </header>
+
+
+        <section class="why-choose">
+            <h1>contact us</h1>
+            <p>Get in touch with us. We are always here to help you.</p>
+          </section>
+
+
+          <section class="contact">
+            <div class="inputs">
+                <div class="contains">
+                    <p class="name">Full Name</p>
+                <input type="text" placeholder="Enter Full Name">
+                </div>
+                <div class="contains">
+                    <p class="name">Email Address</p>
+                   <input type="email" placeholder="abc123@gmail.com">
+                </div>
+                <div class="contains">
+                <p class="name">Subject</p>
+                <input type="text" placeholder="Title Of Your Message">
+                </div>
+                <div class="contains">
+                <p class="name">Message</p>
+                <textarea name="feedback" id="100" placeholder="Please_Give_Your_Valuable_Feedback_Here" rows="10"> We are always here to help you</textarea>
+                </div>
+                <button class="products">Send Message</button>
+               
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.2293731430227!2d77.5624485050083!3d12.941581810867444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158b11e34d2f%3A0x5f4adbdbab8bd80f!2sBMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1731329426433!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </section>
+        
+
+
+        <footer>
+            <div class="footer-container">
+              <div class="footer-info">
+                <div class="footer-info-image">
+                  <img src="logo.png" alt="logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+                </div>
+                <p>Welcome to Thapa EcomStore, your ultimate destination for cutting-edge gadgets!</p>
+                <div class="footer-info-payment">
+                  <div class="footer-info-payment-image">
+                    <img src="public/payment.png" alt="payment">
+                  </div>
+                </div>
+              </div>
+              <div class="footer-contents">
+                <div class="footer-contents-shopping">
+                  <h2>Shopping</h2>
+                  <ul>
+                    <li><a href="#">Computer Store</a></li>
+                    <li><a href="#">Laptop Store</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Sales & Discount</a></li>
+                  </ul>
+                </div>
+                <div class="footer-contents-Experience">
+                  <h2>Experience</h2>
+                  <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Payment Method</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Return And Excahnge</a></li>
+                  </ul>
+                </div>
+                <div class="footer-contents-newsletter">
+                  <h2>NewsLetter</h2>
+                  <p>Be the first to know about new arrivals, sales & promos!</p>
+                  <input type="email" placeholder="Your Email">
+                </div>
+              </div>
+            </div>
+            <div class="last-part">
+              <!-- Design by Thapa!!!! Code by Me -->
+               <div>
+                &copy;  all Rights reserved
+               </div>
+              
+            </div>
+          </footer>
+
+          <script type="module" src="/main.js" defer></script>
+          <script type="module" src="/homeProducts.js"></script>
+
+</body>
+</html>

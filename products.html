@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/styleMedia.css">
+  <link rel="shortcut icon" type="x-icon" href="fav-icon.png">
+</head>
+<body>
+<!-- 
+      <i class="fa-solid fa-star"></i>
+
+-->
+  <!-- Header Part  -->
+<header>
+
+<div class="sign-in-info">
+  <p class="shipping">
+    Free shipping, 30-day return or refund guarantee.
+  </p>
+  <div class="sign">
+    <div class="sign-in">
+      <a href="#">Sign In</a>
+    </div>
+    <div class="sign-up">
+      <a href="#">Sign Up</a>
+    </div>
+  </div>
+</div>
+
+
+<div id="showPro">
+  <span>Laptop</span> Has been Added to the Cart 
+</div>
+
+
+
+<nav>
+<div class="logo">
+  <img src="logo.png" alt="show-mart" onclick="window.location.href='/index.html';">
+</div>
+<div class="nav-options">
+  <i class="fa-solid fa-bars"></i> 
+  
+  <ul>
+     <i class="fa-solid fa-xmark"></i>
+    <li><a href="/index.html"> Home</a> </li>
+    <li><a href="/about.html"> About</a> </li>
+    <li><a href=""> Products</a> </li>
+    <li><a href="/contact.html"> Contact</a> </li>
+    <a href="/Cart.html" class="cart"> <i class="fa-solid fa-cart-shopping"></i> <span id="counter">0</span> </a>
+  </ul>
+
+</div>
+</nav>
+
+
+</header>
+<!-- Header part complete -->
+
+<!-- <div id="showPro">
+  <span>Laptop</span> Has been Added to the Cart 
+</div> -->
+
+
+<!-- Main Section -->
+<main>
+
+       <!-- Sales part starts -->
+    <section class="shop-sales">
+
+      <div class="sales-products">
+        
+        <div class="shop-sales-content">
+            <p>New Year Sale</p>
+            <h3> Get And Extra 50% Off</h3>
+            <a href="#">SHOW NOW</a>
+        </div>
+
+        <div class="shop-sales-image">
+          <img src="laptop-sale.png">
+        </div>
+
+      </div>
+
+
+      <div class="sales-products">
+        <div class="shop-sales-content">
+          <p>New Year Sale</p>
+          <h3> 40% discount on speakers</h3>
+          <a href="#">SHOW NOW</a>
+      </div>
+      <div class="shop-sales-image">
+        <img src="phone-sale.png">
+      </div>
+      </div>
+
+
+      <div class="sales-products">
+        <div class="shop-sales-content">
+          <p>New Year Sale</p>
+          <h3> Get And Extra 50% Off</h3>
+          <a href="#">SHOW NOW</a>
+      </div>
+      <div class="shop-sales-image">
+        <img src="headphone-sale.png">
+      </div>
+      </div>
+
+    </section>
+     <!-- Sales part ends -->
+
+     <!-- Helping part starts -->
+    <section class="bg">
+     <div class="help">
+
+      <div class="help-ele">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div class="help-text">
+          <p>WorldWide Shipping</p>
+          <span>Order Above $100</span>
+        </div>
+      </div>
+
+      <div class="help-ele">
+        <i class="fa-solid fa-rotate"></i> 
+        <div class="help-text">
+          <p>Easy 30 Day Returns</p>
+          <span>Back Returns in 7 Days</span>
+        </div>
+      </div>
+      
+      <div class="help-ele">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        <div class="help-text">
+          <p>money back guarantee</p>
+          <span>guarantee with in 30-Days</span>
+        </div>
+      </div>
+
+      <div class="help-ele">
+        <i class="fa-solid fa-headset"></i>
+        <div class="help-text">
+          <p>Easy Online Support</p>
+          <span>24/7 Any time support</span>
+        </div>
+      </div>
+
+
+     </div>      
+    </section>
+    <!--   Helping part ends  -->
+
+    <section class="why-choose" style="text-align: center;">
+      <h1>Explore Our Products</h1>
+      <p>Choose Our Store for a holistic, enriching shopping experience that empowers you to achieve your goals.</p>
+    </section>
+
+      <!-- Shopping section starts here -->
+
+
+
+
+    <section class="shopping-products">
+      
+
+        
+    </section>
+
+      <!-- Wrap the entrie thing of template inside a div -->
+          <template class="tempCard">
+            <div class="cards">
+              <div class="cards-item">Computer</div>
+              <div class="cards-image"><img src="laptop.png" alt="laptop"></div>
+              <h2 class="cards-name">Laptop</h2>
+              <div class="cards-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="cards-desc">Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.</p>
+              <div class="cards-price">
+                <div class="cards-price-discount">₹39999.99</div>
+                <div class="cards-price-original">₹50000</div>
+              </div>
+              <div class="cards-available">
+                <pre>Total Stocks Available:  <span> 50 </span></pre>
+              </div>
+              <div class="cards-quantity">
+                <p class="pieces">Quantity(Pieces)</p>
+                <div class="cards-quantity-buttons">
+                  <button class="plus">+</button>
+                  <button class="num">1</button>
+                  <button class="minus">-</button>
+                </div>
+              </div>
+              <button class="cards-cart"> <i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+            </div>
+        </template> 
+     
+
+
+
+    <!-- Why Choose Section -->
+    <section class="why-choose">
+      <h1>Why Choose Our Store</h1>
+      <p>Choose Our Store for a holistic, enriching shopping experience that empowers you to achieve your goals.</p>
+    </section>
+
+
+    <!-- Our guarantees section with description Starts here-->
+
+    <section class="gurantees">
+      <div class="gurantees-1">
+        <div class="gurantees-1-p">
+          <div class="num"><span>1</span></div>
+          <h3>Wide Selection</h3>
+          <p>Our Store offers a diverse range of gadgets, from smartphones to smart home devices, ensuring you find what you need to elevate your lifestyle and meet your tech requirements.</p>
+        </div>
+        <div class="gurantees-1-p">
+          <div class="num"><span>2</span></div>
+          <h3>Quality Assurance</h3>
+          <p>Every gadget at Thapa Store undergoes rigorous quality checks, guaranteeing reliability and performance, so you can shop with confidence knowing you're getting the best.
+          </p>
+        </div>
+        <div class="gurantees-1-p">
+          <div class="num"><span>3</span></div>
+          <h3>Competitive Prices</h3>
+          <p>Enjoy great value with Thapa Store's competitive prices on high-quality gadgets, making top-of-the-line technology accessible to all without compromising on quality or performance.</p>
+        </div>
+
+      </div>
+      <div class="gurantees-images">
+          <div class="image-container">
+            <img src="content.png" alt="Enjoy">
+          </div>
+      </div>
+      <div class="gurantees-2">
+
+        <div class="gurantees-2-p">
+          <div class="num"><span>4</span></div>
+          <h3>Expert Guidance</h3>
+          <p>Our Store offers a diverse range of gadgets, from smartphones to smart home devices, ensuring you find what you need to elevate your lifestyle and meet your tech requirements.</p>
+        </div>
+        <div class="gurantees-2-p">
+          <div class="num"><span>5</span></div>
+          <h3>Convenient Shopping</h3>
+          <p>With Thapa Store, shopping for gadgets is easy and convenient. Our user-friendly website and secure payment options ensure a seamless experience from browsing to checkout, all from the comfort of your home.</p>
+        </div>
+        <div class="gurantees-2-p">
+          <div class="num"><span>6</span></div>
+          <h3>Excellent Service</h3>
+          <p>Thapa Store is committed to providing excellent service to our customers. From prompt assistance with inquiries to efficient handling of orders and deliveries, we prioritize your satisfaction every step of the way</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Our guarantees section with description ends here-->
+
+
+
+
+
+</main>
+
+<!-- footer -->
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-info">
+      <div class="footer-info-image">
+        <!-- <img src="logo.png" alt="logo" onclick="window.location.href='/index.html';"> -->
+        <img src="logo.png" alt="logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+      </div>
+      <p>Welcome to Thapa EcomStore, your ultimate destination for cutting-edge gadgets!</p>
+      <div class="footer-info-payment">
+        <div class="footer-info-payment-image">
+          <img src="payment.png" alt="payment">
+        </div>
+      </div>
+    </div>
+    <div class="footer-contents">
+      <div class="footer-contents-shopping">
+        <h2>Shopping</h2>
+        <ul>
+          <li><a href="#">Computer Store</a></li>
+          <li><a href="#">Laptop Store</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Sales & Discount</a></li>
+        </ul>
+      </div>
+      <div class="footer-contents-Experience">
+        <h2>Experience</h2>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Payment Method</a></li>
+          <li><a href="#">Delivery</a></li>
+          <li><a href="#">Return And Excahnge</a></li>
+        </ul>
+      </div>
+      <div class="footer-contents-newsletter">
+        <h2>NewsLetter</h2>
+        <p>Be the first to know about new arrivals, sales & promos!</p>
+        <input type="email" placeholder="Your Email">
+      </div>
+    </div>
+  </div>
+  <div class="last-part">
+    <!-- Design by Thapa!!!! Code by Me -->
+     <div>
+      &copy;  all Rights reserved
+     </div>
+    
+  </div>
+</footer>
+
+
+<script type="module" src="/main.js"></script>
+<script type="module" src="/homeProducts.js"></script>
+
+</body>
+</html>

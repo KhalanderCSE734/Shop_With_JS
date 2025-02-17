@@ -1,0 +1,11 @@
+1.) Go to 'vite' and run the following commands in terminal
+    npm create vite@latest
+    type the project name
+    select techStack
+    cd to the folder name which was given
+    npm install
+    npm run dev
+2.) If we are importing something in js file
+    add 'type' attribute in script tag
+3.) After completing the devlopment phase
+    We should go for build and preview phase
