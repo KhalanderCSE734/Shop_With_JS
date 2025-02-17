@@ -137,7 +137,7 @@ cartParent.addEventListener("click",(evt)=>{
     }
 
     // console.log(arrayFromLocal);
-    // arrayFromLocal = JSON.stringify(arrayFromLocal);        // I committed a biggest mistake here I didn't converted it into 'JSON string' my god, I was almost about to die because of this thing 😭😭😭 , somehow I identified thanks a lot god 😭
+    // arrayFromLocal = JSON.stringify(arrayFromLocal);      //  // I committed a biggest mistake here I didn't converted it into 'JSON string' my god, I was almost about to die because of this thing 😭😭😭 , somehow I identified thanks a lot god 😭
     localStorage.setItem(`productsSaved`,JSON.stringify(arrayFromLocal));
     loadCarts(products,arrayFromLocal);
 })
